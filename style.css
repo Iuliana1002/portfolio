@@ -7,22 +7,27 @@ body{
 }
 h2{
 	font-family: 'Arimo', sans-serif;
-	font-size: 45px;
-	font-weight: bold
+	font-size: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000;
 }
 h3{
-	font-family: 'Arimo', sans-serif;
+	font-family: 'PT Serif',serif;
 	font-size: 30px;
+	color: #707070;
 }
 h4{
 	font-family: 'Arimo', sans-serif;
 	font-size: 30px;
-	font-weight: bold
+	font-weight: bold;
+	color: #000;
 }
 
 p{
-	font-family: 'PT Serif', serif;;
-	font-size: 16px
+	font-family: 'PT Serif', serif;
+	font-size: 16px;
+	color: #000;
 }
 nav {
 	display: flex;
@@ -74,6 +79,26 @@ nav {
 }
 #menu-bar:hover .dropdown-content {display: block;
 }
+header{
+	width: 100%;
+	margin: 0px 30px;
+	padding: 100px 0px;
+}
+header h4{
+	font-weight: normal
+}
+/*.text-1{
+	position: fixed;
+	top:40%;
+	left:-500px;
+	white-space: nowrap;
+}
+.text-2{
+	position: fixed;
+	top:45%;
+	right:-500px;
+	white-space: nowrap;
+}*/
 #wrapper{
 	margin: 0px;
 
