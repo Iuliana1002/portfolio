@@ -1,0 +1,106 @@
+
+body{
+	margin:0px;
+	padding: 0px;
+	background-color: #FAFAFA
+	
+}
+h2{
+	font-family: 'Arimo', sans-serif;
+	font-size: 45px;
+	font-weight: bold
+}
+h3{
+	font-family: 'Arimo', sans-serif;
+	font-size: 30px;
+}
+h4{
+	font-family: 'Arimo', sans-serif;
+	font-size: 30px;
+	font-weight: bold
+}
+
+p{
+	font-family: 'PT Serif', serif;;
+	font-size: 16px
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin:10px 30px;
+	
+}
+#logo img{
+	width: 62px
+}
+.dropbtn {
+	border: none;
+	font-family: 'Arimo', sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	background-color: #fafafa;
+	padding-left: 40px;
+	padding-top: 18.5px;
+	
+}
+.dropbtn a{
+	text-decoration: none;
+	color: #000
+}.dropbtn a:hover{
+	text-decoration: underline 0.5px solid
+}
+#menu-bar{
+	position: relative;
+  	display: inline-block;
+}
+.dropdown-content {
+  	display: none;
+  	position: absolute;
+	z-index: 1;
+}
+.dropdown-content a {
+	display: block;
+	font-family: 'Arimo', sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	text-decoration: none;
+	color:#000000;
+	text-align: center;
+	padding: 10px 0px 10px 10px
+}
+.dropdown-content a:hover{
+	text-decoration: underline 0.5px solid
+}
+#menu-bar:hover .dropdown-content {display: block;
+}
+#wrapper{
+	margin: 0px;
+
+}
+#footer{
+	margin:0px;
+	display: flex;
+	flex-direction: column;
+
+}
+#social-media{
+	display: inline-flex;
+	margin: auto;
+}
+#social-media a{
+	padding: 0px 20px;
+	text-decoration: none;
+	color: #000000;
+	font-family: 'Arimo', sans-serif;
+	font-size: 16px;
+	font-weight: normal
+}
+#copy{
+	margin: auto;
+}
+#copy p{
+	font-family: 'Arimo', sans-serif;
+	font-size: 16px;
+	font-weight: normal
+}
