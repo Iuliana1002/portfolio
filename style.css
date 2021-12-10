@@ -1,6 +1,6 @@
 
 body{
-	margin:0px;
+	margin:0px 30px;
 	padding: 0px;
 	background-color: #FAFAFA
 	
@@ -34,7 +34,8 @@ nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin:10px 30px;
+	margin: 0px;
+	padding:10px 0px;
 	
 }
 #logo img{
@@ -81,8 +82,7 @@ nav {
 #menu-bar:hover .dropdown-content {display: block;
 }
 header{
-	width: 100%;
-	margin: 0px 30px;
+	margin: 0px;
 	padding: 100px 0px;
 }
 header h4{
@@ -101,14 +101,39 @@ wrapper{
 	margin: 0px;
 
 }
+#content{
+	margin:0px;
+	width: 100%;
+}
 #content-home{
 	display:flex;
 	flex-direction: column;
-	margin:0px 30px;
-	width: 100%;
+	margin:0px ;
 	height: 400px;
 	padding-top: 150px;
 	padding-bottom: 150px
+}
+#content-projects{
+	display: flex;
+	flex-direction: column;
+	
+}
+.project-box{
+	margin: 50px auto;
+	border: #000000 1px solid;
+	text-align: center;
+
+}
+.project-box  h4 a{
+	text-decoration: none;
+	color: #000000
+}
+.project-box  h4 a:hover{
+	text-decoration:  underline 2px solid	
+}
+.project-box  p a{
+	text-decoration: none;
+	color: #000000
 }
 .works{
 	display:flex;
@@ -128,10 +153,17 @@ wrapper{
 	
 }
 #footer{
-	margin:0px;
+	margin:30px 0px 0px 0px ;
 	display: flex;
 	flex-direction: column;
 
+}
+#footer img{
+	width: 30px;
+	height: auto;
+}
+#footer a{
+	margin: 10px auto;
 }
 #social-media{
 	display: inline-flex;
@@ -140,7 +172,7 @@ wrapper{
 #social-media a{
 	padding: 0px 20px;
 	text-decoration: none;
-	color: #000000;
+	color: #707070;
 	font-family: 'Arimo', sans-serif;
 	font-size: 16px;
 	font-weight: normal
@@ -151,5 +183,6 @@ wrapper{
 #copy p{
 	font-family: 'Arimo', sans-serif;
 	font-size: 16px;
-	font-weight: normal
+	font-weight: normal;
+	color: #707070
 }
