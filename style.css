@@ -118,10 +118,23 @@ wrapper{
 	flex-direction: column;
 	
 }
+#content-illustrations{
+	display: flex;
+	flex-direction: column;
+	
+}
+.slider{
+	margin: auto;
+	display:flex;
+	position: relative;
+	overflow: hidden
+}
+
 .project-box{
 	margin: 50px auto;
 	border: #000000 1px solid;
 	text-align: center;
+
 
 }
 .project-box  h4 a{
@@ -135,6 +148,12 @@ wrapper{
 	text-decoration: none;
 	color: #000000
 }
+.project-box img{
+	width: 480px;
+	height: 480px;
+	object-fit: cover
+}
+
 .works{
 	display:flex;
 	flex-direction: row;
