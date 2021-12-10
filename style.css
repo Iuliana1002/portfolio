@@ -123,12 +123,12 @@ wrapper{
 	flex-direction: column;
 	
 }
-/*.slider{
+.slider{
 	margin: auto;
 	display:flex;
 	position: relative;
 	overflow: hidden
-}*/
+}
 
 .project-box{
 	margin: 50px auto;
