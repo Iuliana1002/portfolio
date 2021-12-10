@@ -123,12 +123,12 @@ wrapper{
 	flex-direction: column;
 	
 }
-.slider{
+/*.slider{
 	margin: auto;
 	display:flex;
 	position: relative;
 	overflow: hidden
-}
+}*/
 
 .project-box{
 	margin: 50px auto;
@@ -153,7 +153,23 @@ wrapper{
 	height: 480px;
 	object-fit: cover
 }
-
+#back{
+	display:flex;
+	flex-direction: row;
+	margin-bottom: 40px;
+}
+#back img{
+	width: 20px;
+	height: 14px;
+}
+#back p a{
+	text-decoration: none;
+	color: #707070;
+	}
+#back p{
+	margin-top: 0px;
+	padding: 0px 20px
+}
 .works{
 	display:flex;
 	flex-direction: row;
