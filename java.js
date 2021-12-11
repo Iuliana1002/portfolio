@@ -1,13 +1,3 @@
-let heading = document.querySelector('.text-1');
-let heading1=  document.querySelector('.text-2');
-
-window.onscroll = () =>{
-	let position = window.scrollY - 100;
-	heading.style.left = `${position}px`;
-	heading1.style.right = `${position}px`;
-	console.log('HEyllo')
-}
-
 
 // Image slideshow
 
