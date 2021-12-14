@@ -9,10 +9,7 @@ showSlides4(slideIndex += n);
 
 // Next/previous controls
 function plusSlides(n) {
-  showSlides(slideIndex += n);
-  showSlides2(slideIndex += n);
-  showSlides3(slideIndex += n);
-  showSlides4(slideIndex += n);
+  sds
 }
 
 // Thumbnail image controls
