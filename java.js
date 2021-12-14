@@ -1,69 +1,21 @@
+var slideIndex = [1,1,1,1];
+var slideId = ["set1", "set2","set3","set4"]
+showSlides(1, 0);
+showSlides(1, 1);
+showSlides(1, 2);
+showSlides(1, 3);
 
-// Image slideshow
-
-let slideIndex = 1;
-showSlides(slideIndex);
-showSlides2(slideIndex);
-showSlides3(slideIndex);
-showSlides4(slideIndex += n);
-
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-  showSlides2(slideIndex += n);
-  showSlides3(slideIndex += n);
-  showSlides4(slideIndex += n);
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
 }
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-  showSlides2(slideIndex = n);
-  showSlides3(slideIndex = n);
-  showSlides4(slideIndex = n);
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
 }
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("slider");
-  if (n > slides.length) {slideIndex = 1}
-	console.log(slides);
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-   slides[slideIndex-1].style.display = "block";
-  }
-function showSlides2(n) {
-  let i;
-  let slides = document.getElementsByClassName("slider2");
-  if (n > slides.length) {slideIndex = 1}
-  console.log(slides);
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-   slides[slideIndex-1].style.display = "block";
-  }
-function showSlides3(n) {
-  let i;
-  let slides = document.getElementsByClassName("slider3");
-  if (n > slides.length) {slideIndex = 1}
-  console.log(slides);
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-   slides[slideIndex-1].style.display = "block";
-  }
-function showSlides4(n) {
-  let i;
-  let slides = document.getElementsByClassName("slider4");
-  if (n > slides.length) {slideIndex = 1}
-  console.log(slides);
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-   slides[slideIndex-1].style.display = "block";
-  }
