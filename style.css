@@ -428,6 +428,35 @@ wrapper{
 	position: relative;
 	top:5px;
 }
+#SoMe-1{
+		overflow: hidden
+	}
+#SoMe-1 figure {
+	display: flex;
+	position:relative;
+	width: 300%;
+	margin: 0px;
+	left:0px;
+	animation: 10s slider infinite;
+	}
+	
+#SoMe-1 figure img{
+		width: 20%;
+		height: auto;
+		float: left;
+		transition-timing-function: ease-in;
+	padding: 10px;
+	}
+@keyframes SoMe-1{
+		0%{left:0}
+		30%{left:0}
+		33%{left:-100%}
+		63%{left:-100%}
+		66%{left:-200%}
+		96%{left:-200%}
+		100%{left:-300%}
+		}
+	
 /*style footer*/
 #footer{
 	margin:50px 0px 0px 0px ;
