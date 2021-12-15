@@ -314,8 +314,9 @@ wrapper{
 #adobe-icons {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	margin: auto;
-}
+	}
 #certification{
 	margin: auto;
 	text-align: center;
@@ -373,6 +374,7 @@ wrapper{
 	
 }
 #visuals {
+	width: 100%;
 	text-align: center
 }
 
@@ -385,6 +387,7 @@ wrapper{
 }
 
 #theme-info{
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-content: flex-start;
@@ -442,6 +445,7 @@ wrapper{
 }
 #slideshow{
 	margin-top: 50px;
+	width: 100%;
 }
 #slideshow h4{
 	text-align: center;
@@ -464,10 +468,10 @@ wrapper{
 		height: auto;
 		float: left;
 		transition-timing-function: ease-in;
-	padding: 0px;
+		padding: 0px;
 	}
 #SoMe-2{
-		overflow: hidden;
+	overflow: hidden;
 	margin-top: 20px;
 	}
 #SoMe-2 figure {
@@ -579,3 +583,48 @@ wrapper{
 	font-weight: normal;
 	color: #707070
 }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px){
+	#content-projects{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	#visuals{
+		width: 80%;
+		margin: auto;
+	}
+	#visuals img{
+		width: 500px;
+		height: auto;
+	}
+	#visuals video{
+		width: 600px;
+		height: auto;
+	}
+	#theme-info{
+		width: 70%;
+		margin: auto;
+		margin-top: 100px
+	}
+	#slideshow{
+		width: 70%;
+		margin:auto;
+	}
+	
+}
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) { 
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+	
+}
+
+
