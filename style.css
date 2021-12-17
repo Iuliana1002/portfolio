@@ -67,11 +67,12 @@ nav {
 #menu-bar{
 	float: right;
 	margin-right: 60px;
-	display: inline-block;
+	display: inline-flex;
 }
 .dropdown-content {
   	display: none;
   	position: absolute;
+	top: 55px;
 	z-index: 1;
 }
 .dropdown-content a {
