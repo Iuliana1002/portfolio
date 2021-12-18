@@ -2,11 +2,11 @@
 body{
 	margin:0px 30px;
 	padding: 0px;
-	background-color: #FAFAFA
+	background-color: #FAFAFA;
+	font-family: 'Arimo', sans-serif;
 	
 }
 h2{
-	font-family: 'Arimo', sans-serif;
 	font-size: 50px;
 	word-wrap: break-word;
 	font-weight: bold;
@@ -14,20 +14,17 @@ h2{
 	color: #000;
 }
 h3{
-	font-family: 'Arimo', sans-serif;
 	font-size: 30px;
 	color: #707070;
 	font-weight: normal;
 }
 h4{
-	font-family: 'Arimo', sans-serif;
 	font-size: 30px;
 	font-weight: bold;
 	color: #000;
 }
 
 p{
-	font-family: 'PT Serif', serif;
 	font-size: 16px;
 	color: #000;
 	word-wrap: break-word;
@@ -54,15 +51,18 @@ nav {
 	font-weight: normal;
 	font-size: 20px;
 	background-color: #fafafa;
-	padding-left: 40px;
 	padding-top: 18.5px;
+	cursor: pointer;
+	margin-left: 45px;
+	text-align: center
 	
 }
 .dropbtn a{
 	text-decoration: none;
 	color: #000
 }.dropbtn a:hover{
-	text-decoration: underline 0.5px solid
+	text-decoration: underline 0.5px solid;
+	
 }
 #menu-bar{
 	float: right;
@@ -72,8 +72,11 @@ nav {
 .dropdown-content {
   	display: none;
   	position: absolute;
-	top: 55px;
+	top: 75px;
 	z-index: 1;
+	background-color: #fafafa;
+	padding: 0px 5px;
+	text-align: center;
 }
 .dropdown-content a {
 	display: block;
@@ -92,8 +95,9 @@ nav {
 }
 header{
 	margin: 0px;
-	padding: 150px 0px 75px 0px;
+	padding: 70px 0px 10px 0px;
 	background-color: #FDD910;
+	text-align: center;
 }
 header h4{
 	font-weight: normal
@@ -141,14 +145,12 @@ wrapper{
 	width: 100%;
 	display:flex;
 	flex-direction: column;
-	margin:100px 0px;
-	padding: 100px 0px;
-	
+	margin:100px auto;	
 	}
 #content-dance{
 	display:flex;
 	flex-direction: column;
-	margin:100px 0px;
+	margin:50px 0px;
 	padding: 100px 0px
 }
 #content-projects{
@@ -158,11 +160,11 @@ wrapper{
 #content-illustrations{
 	display: flex;
 	flex-direction: column;
-	margin:100px 0px;
+	margin:50px 0px;
 	
 }
 #content-about{
-	margin:100px auto;
+	margin:50px auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -177,37 +179,45 @@ wrapper{
 	
 }
 #content-space-odyssey{
-	margin:100px 0px;
+	margin:50px 0px;
 }
 #content-space-odyssey h4{
 	text-align: center;
 }
 #content-dance-part1{
-	margin:100px 0px;
+	margin:50px 0px;
 }
 #content-dance-part1 h4{
 	text-align: center;
 }
 #content-dance-part2{
-	margin:100px 0px;
+	margin:50px 0px;
 }
 #content-dance-part2 h4{
 	text-align: center;
 }
 #content-video{
-	margin:100px 0px;
+	margin:50px 0px;
 }
 #content-video h4{
 	text-align: center;
 }
 #content-EC{
-	margin:100px 0px;
+	margin:50px 0px;
 }
 #content-EC h4{
 	text-align: center;
 }
 .mockup-EC2{
 display: none;
+}
+.mockup-EC1 img{
+	margin:auto;
+	padding-top: 50px;
+	width: 340px;
+	height: auto;	
+	border-bottom: 2px solid #FDD910;
+	padding: 20px;
 }
 .slideshow-container{
 	height: auto;
@@ -254,8 +264,9 @@ display: none;
 }
 .project-box{
 	margin: 50px auto;
-	border: #000000 1px solid;
+	border: 1px solid #FDD910;
 	text-align: center;
+	background-color: #fdd910;
 
 
 }
@@ -282,40 +293,46 @@ display: none;
 #back{
 	display:flex;
 	flex-direction: row;
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 }
 #back img{
 	width: 20px;
-	height: 14px;
+	height: auto;
+	margin-top:-30px;
 }
 #back p a{
 	text-decoration: none;
-	color: #707070;
+	color: #000000;
 	font-family: 'Arimo', sans-serif
 	}
 #back p{
-	margin-top: 0px;
-	padding: 0px 20px
+	font-size: 22px;
+	margin-top: auto;
+	padding: 0px 10px
 }
 .works{
-	display:flex;
-	flex-direction: row;
+	width: 180px;
+	height: 70px;
+	margin: 15px auto;
+	background-color: #000;
+	text-align: center;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;	
 	}
 .works h3 a{
 	text-decoration: none;
-	color:#707070;
-}
+	color:#FDD910;
+	}
 .works h3{
-	padding: 0px 20px;	
-	margin-top: 0px
+	margin:auto;
+	margin-top: 20px;
 }
-.works img{
+/*.works img{
 	width: 37px;
 	height: 25px;
 	position:relative;
 	top:7px;
 	
-}
+}*/
 /*style About page*/
 
 #name {
@@ -389,8 +406,7 @@ display: none;
 	text-transform: capitalize
 }
 /* style project pages*/
-
-/*#visuals img{
+.logo img {
 	margin:auto;
 	padding-top: 50px;
 	width: 340px;
@@ -398,7 +414,15 @@ display: none;
 	border-bottom: 2px solid #FDD910;
 	padding: 20px;
 }
-*/
+.mockup img{
+	margin:auto;
+	padding-top: 50px;
+	width: 340px;
+	height: auto;	
+	border-bottom: 2px solid #FDD910;
+	padding: 20px;
+}
+
 #visuals video{
 	display:block;
 	margin: auto;	
@@ -643,6 +667,11 @@ display: none;
 	width: 500px;
 	height: auto;	
 		}
+	.mockup-EC1 img{
+	width: 500px;
+	height: auto;	
+	
+}
 	#visuals video{
 		width: 600px;
 		height: auto;
@@ -693,11 +722,6 @@ display: none;
 		width: 800px;
 		height: auto;
 	}
-	#theme-info{
-		width: 80%;
-		margin: auto;
-		margin-top: 100px
-	}
 	#slideshow{
 		width: 80%;
 		margin:auto;
@@ -705,14 +729,14 @@ display: none;
 	#content-about{
 		width: 70%;
 	}
-.zoom{
+	.zoom{
 	overflow: hidden
 }
-.zoom img {
-transition: transform .5s ease;
+	.zoom img {
+	transition: transform .5s ease;
 
 }
-.zoom img:hover{
+	.zoom img:hover{
 	transform: scale(1.5);
 }
 	#SoMe-1{
@@ -749,16 +773,6 @@ transition: transform .5s ease;
 		margin: 0px 20px;
 		border-left: 2px solid #FDD910;
 	}
-	.about h4{
-		text-align: center;		
-	}
-	.about p{
-		text-align: center;		
-	}
-	.about ul li{
-		text-align: center;		
-	}
-	.about
 	#circle-1 { 
 	   	left:-10px;
 		top: 72px;
@@ -771,14 +785,12 @@ transition: transform .5s ease;
 	   	left:-20px;
 		top: 72px;
 		}
-	
-	
-}
-
-/*Extra large devices (large desktops, 1200px and up)*/
-
-@media (min-width: 1200px) {
-	
+	#link a:hover{
+		font-weight: bold;
+	}
+	.works a:hover{
+		color: #FAFAFA;
+	}
 	.mockup-EC1{
 		display: none;
 	}
@@ -786,17 +798,29 @@ transition: transform .5s ease;
 		display: block;
 		}
 	.mockup-EC2 img{
-		width: 1000px;
+		width: 800px;
 		height: auto;
 		margin:30px auto;
 	}
+	
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+	
 	.mockup img{
-	width: 700px;
+	width: 650px;
 	height: auto;	
 		}
 	.logo img{
 		width: 400px;
 		height: auto;
+	}
+	.mockup-EC2 img{
+		width: 1000px;
+		height: auto;
+		
 	}
 	#visuals video{
 		width: 1000px;
