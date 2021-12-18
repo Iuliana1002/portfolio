@@ -396,37 +396,9 @@ display: none;
 	width: 340px;
 	height: auto;	
 	border-bottom: 2px solid #FDD910;
-<<<<<<< 5f2391425e2aaa6e9008e1ba16e846972f75a208
 	padding: 20px;
 }
-
-=======
-	padding-bottom: 50px;
-	
-}*/
-.logo img{
-	margin:auto;
-	padding-top: 50px;
-	width: 340px;
-	height: auto;	
-	border-bottom: 2px solid #FDD910;
-	padding-bottom: 50px;
-	}
-.mockup img{
-	margin:auto;
-	padding-top: 50px;
-	width: 340px;
-	height: auto;	
-	padding-bottom: 50px;
-	}
-.mockup-EC1 img{
-	margin:auto;
-	padding-top: 50px;
-	width: 340px;
-	height: auto;	
-	padding-bottom: 50px;
-	}
->>>>>>> responsive for tablet, laptop and larger screens
+*/
 #visuals video{
 	display:block;
 	margin: auto;	
