@@ -145,8 +145,7 @@ wrapper{
 	display:flex;
 	flex-direction: column;
 	margin:100px 0px;
-	height: 400px;
-	padding-bottom: 150px
+	padding: 100px 0px
 }
 #content-projects{
 	display: flex;
@@ -372,6 +371,7 @@ wrapper{
 #visuals {
 	text-align: center
 }
+
 #link a{
 	text-decoration: none;;
 	color: #000;
@@ -420,7 +420,11 @@ wrapper{
 	left:-20px;
 	top: 75px
 }
-.about h4, p, ul li {
+.about h4 {
+	margin-left: 30px;
+	text-align: left;
+}
+.about p {
 	margin-left: 30px;
 	text-align: left;
 }
@@ -428,33 +432,107 @@ wrapper{
 	position: relative;
 	top:5px;
 }
+#slideshow{
+	margin-top: 50px;
+}
+#slideshow h4{
+	text-align: center;
+}
 #SoMe-1{
-		overflow: hidden
+	overflow: hidden;
+	margin-top: 20px;
 	}
 #SoMe-1 figure {
 	display: flex;
 	position:relative;
-	width: 300%;
+	width: 400%;
 	margin: 0px;
 	left:0px;
-	animation: 10s slider infinite;
+	animation: 10s SoMe-1 infinite;
 	}
 	
 #SoMe-1 figure img{
-		width: 20%;
+		width:  25%;
 		height: auto;
 		float: left;
 		transition-timing-function: ease-in;
-	padding: 10px;
+	padding: 0px;
+	}
+#SoMe-2{
+		overflow: hidden;
+	margin-top: 20px;
+	}
+#SoMe-2 figure {
+	display: flex;
+	position:relative;
+	width: 500%;
+	margin: 0px;
+	left:0px;
+	animation: 15s SoMe-2 infinite;
+	}
+	
+#SoMe-2 figure img{
+		width:  20%;
+		height: auto;
+		float: left;
+		transition-timing-function: ease-in;
+	padding: 0px;
+	}
+#SoMe-3{
+		overflow: hidden;
+	margin-top: 20px;
+	}
+#SoMe-3 figure {
+	display: flex;
+	position:relative;
+	width: 700%;
+	margin: 0px;
+	left:0px;
+	animation: 20s SoMe-3 infinite;
+	}
+	
+#SoMe-3 figure img{
+		width: 14.2%;
+		height: auto;
+		float: left;
+		transition-timing-function: ease-in;
+	padding: 0px;
 	}
 @keyframes SoMe-1{
 		0%{left:0}
 		30%{left:0}
-		33%{left:-100%}
-		63%{left:-100%}
-		66%{left:-200%}
-		96%{left:-200%}
+		34%{left:-100%}
+		60%{left:-100%}
+		65%{left:-200%}
+		97%{left:-200%}
 		100%{left:-300%}
+		}
+@keyframes SoMe-2{
+		0%{left:0}
+		20%{left:0}
+		25%{left:-100%}
+		45%{left:-100%}
+		50%{left:-200%}
+		70%{left:-200%}
+		75%{left:-300%}
+		95%{left:-300%}
+		100%{left:-400%}
+		}
+@keyframes SoMe-3{
+		0%{left:0}
+		14.2%{left:0}
+		17%{left:-100%}
+		31.2%{left:-100%}
+		34.2%{left:-200%}
+		48.4%{left:-200%}
+		51.4%{left:-300%}
+	    65.6%{left:-300%}
+	    68.6%{left:-400%}
+	 	82.8%{left:-400%}
+		85.8%{left:-500%}
+	 	97%{left:-500%}
+	 	100%{left:-600%}
+	
 		}
 	
 /*style footer*/
