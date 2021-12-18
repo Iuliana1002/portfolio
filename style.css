@@ -7,7 +7,8 @@ body{
 }
 h2{
 	font-family: 'Arimo', sans-serif;
-	font-size: 55px;
+	font-size: 50px;
+	word-wrap: break-word;
 	font-weight: bold;
 	text-transform: uppercase;
 	color: #000;
@@ -29,6 +30,7 @@ p{
 	font-family: 'PT Serif', serif;
 	font-size: 16px;
 	color: #000;
+	word-wrap: break-word;
 }
 nav {
 	width: 100%;
@@ -63,9 +65,9 @@ nav {
 	text-decoration: underline 0.5px solid
 }
 #menu-bar{
-	position: relative;
-	right: 10%;
-  	display: inline-block;
+	float: right;
+	margin-right: 60px;
+	display: inline-block;
 }
 .dropdown-content {
   	display: none;
@@ -235,10 +237,11 @@ wrapper{
 	color: #000000
 }
 .project-box img{
-	width: 480px;
-	height: 480px;
+	width: 340px;
+	height: 340px;
 	object-fit: cover
 }
+
 #back{
 	display:flex;
 	flex-direction: row;
@@ -348,12 +351,13 @@ wrapper{
 	text-transform: capitalize
 }
 /* style project pages*/
+
 #visuals img{
 	display: flex;
 	flex-dire: column;;
 	margin:auto;
 	padding-top: 50px;
-	width: 400px;
+	width: 340px;
 	height: auto;	
 	border-bottom: 2px solid #FDD910;
 	padding: 20px;
@@ -425,6 +429,10 @@ wrapper{
 	text-align: left;
 }
 .about p {
+	margin-left: 30px;
+	text-align: left;
+}
+.about ul li {
 	margin-left: 30px;
 	text-align: left;
 }
