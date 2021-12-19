@@ -55,7 +55,17 @@ nav {
 	cursor: pointer;
 	margin-left: 45px;
 	text-align: center
-	
+	}
+button{
+	border: none;
+	font-family: 'Arimo', sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	background-color: #fafafa;
+	padding-top: 18.5px;
+	cursor: pointer;
+	margin-left: 45px;
+	text-align: center;
 }
 .dropbtn a{
 	text-decoration: none;
