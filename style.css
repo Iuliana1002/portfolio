@@ -56,17 +56,7 @@ nav {
 	margin-left: 45px;
 	text-align: center
 	}
-button{
-	border: none;
-	font-family: 'Arimo', sans-serif;
-	font-weight: normal;
-	font-size: 20px;
-	background-color: #fafafa;
-	padding-top: 18.5px;
-	cursor: pointer;
-	margin-left: 45px;
-	text-align: center;
-}
+
 .dropbtn a{
 	text-decoration: none;
 	color: #000
@@ -452,6 +442,8 @@ display: none;
 #link a{
 	text-decoration: none;;
 	color: #000;
+	background-color: #FDD910;
+	padding: 3px 10px;
 	}
 #link p{
 	text-align: center;
@@ -796,7 +788,7 @@ display: none;
 		top: 72px;
 		}
 	#link a:hover{
-		font-weight: bold;
+		color:#FFFFFF;
 	}
 	.works a:hover{
 		color: #FAFAFA;
